@@ -45,6 +45,10 @@ main {
   color: hsl(229, 6%, 66%);
 }
 
+.reliable-section p {
+  max-width: 400px;
+}
+
 .cards-container {
   margin-top: 3rem;
 }
