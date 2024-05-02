@@ -4,19 +4,78 @@
   box-sizing: border-box;
 }
 
+h1 {
+  color: black;
+}
+
 body {
   font-size: 15px;
   font-weight: 400;
   padding: 2rem;
   min-height: 100svh;
   font-family: "Poppins";
+  color: hsl(229, 6%, 66%);
 }
 
 main {
   max-width: 800px;
   margin: 0 auto;
   width: 100%;
+  margin-bottom: 4rem;
 }
 
 .reliable-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.reliable-section > h1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.reliable-section > h1 {
+  font-size: x-large;
+}
+
+.reliable-section > h1 span:first-child {
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
+}
+
+.cards-container {
+  margin-top: 3rem;
+}
+
+.cards-container,
+.aside-inside {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+.card {
+  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  position: relative;
+  border-top: 3px solid hsl(180, 62%, 55%);
+  padding: 1.5rem;
+  border-radius: 0.35rem;
+  background-color: white;
+  box-shadow: rgba(128, 128, 128, 0.134) -2px 2px,
+    rgba(128, 128, 128, 0.129) 2px -2px;
+}
+
+.card img {
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+  width: 2.5rem;
 }
